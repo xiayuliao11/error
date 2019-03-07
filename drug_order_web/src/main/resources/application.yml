@@ -7,10 +7,8 @@ eureka:
 spring:
   application:
     name: order-feign
-  thymeleaf:
-    content-type: text/html
-    cache: false
-    mode: LEGACYHTML5
-  #给指定包下面的类起别名
-  type-aliases-package: com.jk.pojo
 
+    thymeleaf:
+      encoding: UTF-8
+      servlet:
+        content-type: text/html
