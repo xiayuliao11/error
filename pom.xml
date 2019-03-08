@@ -10,10 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>drug_common</module>
-        <module>drug_order_web</module>
-        <module>drug_order_service_api</module>
-        <module>drug_order_server</module>
         <module>drug_order_eureka</module>
+        <module>drug_order_server</module>
+        <module>drug_order_service_api</module>
+        <module>drug_order_web</module>
     </modules>
 
 
